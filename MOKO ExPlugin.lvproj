@@ -23,7 +23,7 @@
 		<Item Name="MOKO_ExPlugin_SERVER_PARAM.lvlib" Type="Library" URL="../Web server/MOKO_ExPlugin_SERVER_PARAM.lvlib"/>
 		<Item Name="SERVER" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">3</Property>
+			<Property Name="Bld_version.build" Type="Int">4</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -35,7 +35,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">3</Property>
+			<Property Name="ws.version.build" Type="Int">4</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -206,7 +206,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../App</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0B2AB0E-5909-4B81-BA30-BEA495FBD52B}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOKO ExPlugin.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../App/NI_AB_PROJECTNAME.exe</Property>
@@ -232,38 +232,6 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{638C7C6F-6BCC-42D3-B876-674E561A5A79}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">MOKO ExPlugin.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="MOKO ExPlugin Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">MOKO ExPlugin</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{6BA5B923-8802-4D0D-A760-BC2C285C59A0}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">New Folder</Property>
-				<Property Name="Destination[1].parent" Type="Str">{6BA5B923-8802-4D0D-A760-BC2C285C59A0}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{5E51D4E2-F834-4909-8EDF-2FD08CF88D7B}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">C:\MOKO SE\Plugins\MOKO ExPlugin</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/MOKO SE/Plugins/MOKO ExPlugin</Property>
-				<Property Name="Destination[2].tag" Type="Str">{DBCB52E1-4AA4-4CF2-A391-0D5DF9A87273}</Property>
-				<Property Name="Destination[2].type" Type="Str">absFolder</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/MOKO ExPlugin/Installer</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">MOKO ExPlugin Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{6BA5B923-8802-4D0D-A760-BC2C285C59A0}</Property>
-				<Property Name="INST_productName" Type="Str">MOKO ExPlugin</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">18008007</Property>
-				<Property Name="MSI_distID" Type="Str">{BA00AE1A-64D6-432B-9A90-5B953B688726}</Property>
-				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{9F45BF83-D81A-4A40-A24F-606F384CE109}</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
 			</Item>
 		</Item>
 	</Item>
