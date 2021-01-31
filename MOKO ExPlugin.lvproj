@@ -18,12 +18,12 @@
 		<Item Name="Lib" Type="Folder" URL="../Lib">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="explugin_eku_icon.ico" Type="Document" URL="../Icon/explugin_eku_icon.ico"/>
+		<Item Name="MOKO ExPlugin APP.ico" Type="Document" URL="../Icon/MOKO ExPlugin APP.ico"/>
 		<Item Name="MOKO ExPlugin.vi" Type="VI" URL="../MOKO ExPlugin.vi"/>
 		<Item Name="MOKO_ExPlugin_SERVER_PARAM.lvlib" Type="Library" URL="../Web server/MOKO_ExPlugin_SERVER_PARAM.lvlib"/>
 		<Item Name="SERVER" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">6</Property>
+			<Property Name="Bld_version.build" Type="Int">8</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -35,7 +35,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">6</Property>
+			<Property Name="ws.version.build" Type="Int">8</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -206,7 +206,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../App</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0B2AB0E-5909-4B81-BA30-BEA495FBD52B}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOKO ExPlugin.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../App/NI_AB_PROJECTNAME.exe</Property>
@@ -217,8 +217,8 @@
 				<Property Name="Destination[1].path" Type="Path">../App/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/explugin_eku_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{DFA6B750-46CD-42BC-90E2-4236431B1173}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/MOKO ExPlugin APP.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1048A723-27E6-4172-8115-E7BAF0B1932B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MOKO ExPlugin.vi</Property>
