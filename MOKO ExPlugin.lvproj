@@ -23,7 +23,7 @@
 		<Item Name="MOKO_ExPlugin_SERVER_PARAM.lvlib" Type="Library" URL="../Web server/MOKO_ExPlugin_SERVER_PARAM.lvlib"/>
 		<Item Name="SERVER" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">9</Property>
+			<Property Name="Bld_version.build" Type="Int">10</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -35,7 +35,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">9</Property>
+			<Property Name="ws.version.build" Type="Int">10</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -153,10 +153,7 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="create png.vi" Type="VI" URL="../../MOKO_NMEA/Lib/NMEA_LIB/create png.vi"/>
-			<Item Name="IS_EXE.vi" Type="VI" URL="../../MOKO_NMEA/Lib/NMEA_LIB/IS_EXE.vi"/>
 			<Item Name="REST API.ctl" Type="VI" URL="../Llb/HTTP.llb/REST API.ctl"/>
-			<Item Name="take_screenshot.vi" Type="VI" URL="../../MOKO_NMEA/Lib/NMEA_LIB/take_screenshot.vi"/>
 			<Item Name="WEB info.ctl" Type="VI" URL="../Llb/HTTP.llb/WEB info.ctl"/>
 			<Item Name="WEB method.ctl" Type="VI" URL="../Llb/HTTP.llb/WEB method.ctl"/>
 			<Item Name="WEB REQUEST.vi" Type="VI" URL="../Llb/HTTP.llb/WEB REQUEST.vi"/>
@@ -181,7 +178,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../App</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0B2AB0E-5909-4B81-BA30-BEA495FBD52B}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOKO ExPlugin.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../App/NI_AB_PROJECTNAME.exe</Property>
