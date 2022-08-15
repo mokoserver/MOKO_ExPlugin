@@ -3,7 +3,7 @@
 #define LinkName "MOKO ExPlugin"
 #define ExeName "MOKO ExPlugin"
 #define AppPublisher "MOKO"
-#define AppVersion "1.01.31.1"
+#define AppVersion "2.08.15.1"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
