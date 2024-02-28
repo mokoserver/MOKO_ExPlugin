@@ -23,7 +23,7 @@
 		<Item Name="MOKO_ExPlugin_SERVER_PARAM.lvlib" Type="Library" URL="../Web server/MOKO_ExPlugin_SERVER_PARAM.lvlib"/>
 		<Item Name="SERVER" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">10</Property>
+			<Property Name="Bld_version.build" Type="Int">11</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -35,7 +35,7 @@
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">10</Property>
+			<Property Name="ws.version.build" Type="Int">11</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -128,7 +128,6 @@
 				<Item Name="JSON support.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/JSON API/support/JSON support.lvlib"/>
 				<Item Name="JSON Value.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Value/JSON Value.lvclass"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
@@ -151,6 +150,13 @@
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
+			<Item Name="MAPP_StopOrExit.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoAPP/MAPP_StopOrExit.vi"/>
+			<Item Name="MJSN_DeleteHooks.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_DeleteHooks.vi"/>
+			<Item Name="MJSN_DeleteMark.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_DeleteMark.vi"/>
+			<Item Name="MJSN_FindParam.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_FindParam.vi"/>
+			<Item Name="MJSN_FindParamWithDeletedMark.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_FindParamWithDeletedMark.vi"/>
+			<Item Name="MLLC_Error.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Error.ctl"/>
+			<Item Name="MSRV_ParsingInputJSON.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoServer/MSRV_ParsingInputJSON.vi"/>
 			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -172,7 +178,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../App</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C0B2AB0E-5909-4B81-BA30-BEA495FBD52B}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">MOKO ExPlugin.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../App/NI_AB_PROJECTNAME.exe</Property>
